@@ -1,0 +1,42 @@
+div{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Roboto";
+    font-size: 12pt;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+img{
+    float: right;
+    margin: 1rem;
+}
+table, th, td{
+    width: 50pc;
+    text-align: left;
+    vertical-align: top;
+}
+h1{
+    font-family: "Helvetica","Arial", "Corrier";
+    font-size: 50pt;
+    text-align: center;
+    border-bottom: 3px double #c9a0f2;
+    margin: 2rem;
+}
+.haiku{
+    text-align: center;
+    padding: 0;
+    text-indent: 0;
+
+}
+body{
+    background-color: black;
+    background-image: url("./VR_Background_Image.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+p{
+    text-indent: 50px;
+    padding-left: 2rem;
+    padding-right: 10rem;
+}
