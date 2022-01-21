@@ -1,25 +1,44 @@
 div{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     font-family: "Roboto";
     font-size: 12pt;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 5rem;
+    padding: 100px;
 }
 img{
     float: right;
     margin: 1rem;
+    border: 5px solid white;
+    box-shadow: 0px 5px 10px 5px #a5dfe6;
 }
 table, th, td{
-    width: 50pc;
-    text-align: left;
+    text-align: center;
     vertical-align: top;
+}
+table{
+    /* border-collapse: collapse; */
+    border-spacing: 0px;
+}
+td, th{
+    width: 125px;
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+tr:nth-child(even){
+    background-color: rgb(104, 104, 104);
 }
 h1{
     font-family: "Helvetica","Arial", "Corrier";
-    font-size: 50pt;
+    font-size: 60pt;
     text-align: center;
     border-bottom: 3px double #c9a0f2;
     margin: 2rem;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+h2{
+    font-family: "Lucida Console";
+    text-decoration: underline;
 }
 .haiku{
     text-align: center;
@@ -39,4 +58,21 @@ p{
     text-indent: 50px;
     padding-left: 2rem;
     padding-right: 10rem;
+}
+.work_cell{
+    background-color: rgb(0, 100, 100);
+    border-left: 1px solid #26C2F3;
+    border-right: 1px solid #26C2F3;
+}
+.calc_cell{
+    background-color: rgb(100, 0, 50);
+}
+.institute_cell{
+    background-color: rgb(138, 138, 41);
+}
+.lunch_cell{
+    background-color: rgb(163, 72, 30);
+}
+.cs_cell{
+    background-color: rgb(9, 9, 107);
 }

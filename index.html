@@ -11,7 +11,7 @@
     <div>
         <h1>Hunter Stevens</h1>
         <img src="ProPic.jpg" alt="My Profile Pic">
-        <h2>Personal Info:</h2>
+        <h2>Personal Info</h2>
         <ul id="personal-info">
             <li><b>Majoring in:</b> Computer Science</li>
             <li><b>graduated from:</b>Lehi High School in 2015</li>
@@ -54,7 +54,7 @@
         </p>
 
         <h2>Class Schedule</h2>
-        <table border="1" cellspacing="3" cellpadding="3">
+        <table>
             <thead>
                 <th> </th>
                 <th>Monday</th>
@@ -65,17 +65,22 @@
             </thead>
             <tr>
                 <th>7:00 AM</th>
-                <td rowspan="18">Work<br>At<br>Weave</td>
-                <td rowspan="6">Online<br>Calculus<br>Work</td>
-                <td rowspan="18">Work<br>At<br>Weave</td>
-                <td rowspan="6">Online<br>Calculus<br>Work</td>
-                <td rowspan="18">Work<br>At<br>Weave</td>
+                <td class="work_cell" rowspan="18">Work<br>At<br>Weave</td>
+                <td> </td>
+                <td class="work_cell" rowspan="18">Work<br>At<br>Weave</td>
+                <td> </td>
+                <td class="work_cell" rowspan="18">Work<br>At<br>Weave</td>
             </tr>
             <tr>
                 <th>7:30 AM</th>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
-                <th>8:00 AM</th>
+                <th>8:00 AM</th>                
+                <td class="calc_cell" rowspan="4">Online<br>Calculus<br>Work</td>
+                <td class="calc_cell" rowspan="4">Online<br>Calculus<br>Work</td>
+
             </tr>
             <tr>
                 <th>8:30 AM</th>
@@ -88,16 +93,16 @@
             </tr>
             <tr>
                 <th>10:00 AM</th>
-                <td rowspan="2">Institute<br>Class</td>
-                <td rowspan="2">Institute<br>Class</td>
+                <td class="institute_cell" rowspan="2">Institute<br>Class</td>
+                <td class="institute_cell" rowspan="2">Institute<br>Class</td>
             </tr>
             <tr>
                 <th>10:30 AM</th>
             </tr>
             <tr>
                 <th>11:00 AM</th>
-                <td rowspan="2">Online<br>Calculus</td>
-                <td rowspan="2">Online<br>Calculus</td>
+                <td class="calc_cell" rowspan="2">Online<br>Calculus</td>
+                <td class="calc_cell" rowspan="2">Online<br>Calculus</td>
             </tr>
 
             <tr>
@@ -105,27 +110,29 @@
             </tr>
             <tr>
                 <th>12:00 PM</th>
-                <td rowspan="2">Lunch</td>
-                <td rowspan="2">Lunch</td>
+                <td class="lunch_cell" rowspan="2">Lunch</td>
+                <td class="lunch_cell" rowspan="2">Lunch</td>
             </tr>
             <tr>
                 <th>12:30 PM</th>
             </tr>
             <tr>
                 <th>1:00 PM</th>
-                <td rowspan="3">CS2550<br>Homework</td>
-                <td rowspan="3">CS2550<br>Homework</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <th>1:30 PM</th>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <th>2:00 PM</th>
             </tr>
             <tr>
                 <th>2:30 PM</th>
-                <td rowspan="4">Web<br>Programming<br>CS2550</td>
-                <td rowspan="4">Web<br>Programming<br>CS2550</td>
+                <td class="cs_cell" rowspan="4">Web<br>Programming<br>CS2550</td>
+                <td class="cs_cell" rowspan="4">Web<br>Programming<br>CS2550</td>
             </tr>
             <tr>
                 <th>3:00 PM</th>
